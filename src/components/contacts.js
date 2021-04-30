@@ -1,4 +1,5 @@
 import React from "react"
+import Details from "./details";
 import Images from "./Image";
 function Contact(props)
 {
@@ -8,10 +9,8 @@ function Contact(props)
       <div className="title"><h1 id="name">{props.name}</h1>
        <Images image={props.image}/>
   </div>
-    
-      <h2>{props.tel}</h2>
-    <h2>{props.email}</h2>
-   </div>
+    <Details tel={props.tel} email={props.email}/>
+      </div>
   )
  
 }
