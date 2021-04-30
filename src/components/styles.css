@@ -1,0 +1,43 @@
+.App{
+box-sizing: border-box;
+font-family: 'Arial', Courier, monospace
+}
+
+.contacts
+{
+  background-color: #1cc5dc;
+  border-radius: 1rem;
+  width: 500px;
+  height:400px;
+  margin: auto;
+  
+}
+.title
+{
+  border-radius: 1rem 0 0;
+background-color: #b0efeb;
+height: 170px;
+}
+h1
+{
+  margin: 2rem;
+
+  justify-content: left;
+ color: #393e46;
+ padding: 1rem;
+}
+img
+{
+  
+  border: 7px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 8rem;
+  float: right;
+  margin-right: 2rem;
+}
+h2{
+  margin: 2rem;
+  justify-content: left;
+  color: #687980; 
+}
