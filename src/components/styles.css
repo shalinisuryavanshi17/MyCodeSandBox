@@ -14,7 +14,7 @@ font-family: 'Arial', Courier, monospace
 }
 .title
 {
-  border-radius: 1rem 0 0;
+  border-radius: 1rem 1rem 0  0 ;
 background-color: #b0efeb;
 height: 170px;
 }
