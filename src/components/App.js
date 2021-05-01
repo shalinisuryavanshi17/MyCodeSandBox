@@ -40,7 +40,7 @@ const profiles = [
 function displayProfile(profile)
 {
   return (
-    <Contact name={profile.name} image={profile.image } tel={profile.tel} email={profile.email}  />
+    <Contact id={profile.id} key={profile.id} name={profile.name} image={profile.image } tel={profile.tel} email={profile.email}  />
 
   )
 }
