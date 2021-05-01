@@ -1,6 +1,13 @@
+*
+{
+  padding:0;
+  margin:0;
+  box-sizing: border-box
+}
 .App{
 box-sizing: border-box;
-font-family: 'Arial', Courier, monospace
+font-family: 'Arial', Courier, monospace;
+background-color: lightgrey;
 }
 
 .contacts
